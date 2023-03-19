@@ -5,27 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    
     <title>Document</title>
 </head>
 <body>
     
-    <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.263/build/spline-viewer.js"></script>
-    <spline-viewer id = "model" url="https://prod.spline.design/lpH-1b-4OaQ9ULLP/scene.splinecode"></spline-viewer>
-        <!--
-        <div class = "title">
-            <h1 id = "mainTitle">
-                Alice
-                <br>
-                Hacks
-                
-            </h1>
-            <h2 id = "description">
-                a hackathon in wonderland
-            </h2>
-        </div>
-        -->
+    <nav>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </nav>
 
+
+    <div class="scroll-down-arrow"></div>
+    
+    <div class = "text">
+        <div id = "title1">
+            <div id = "leftalign">
+                <div style ="margin-left: 0.5vw">Alice</div>
+                <div style ="margin-left: -0.5vw">Hacks</div>
+
+                <div id = "subtitle">
+                    <div>A hackathon in wonderland</div>
+                </div>
+
+                <script async src="https://tally.so/widgets/embed.js"></script>
+                <button class = "btn btn-shadow-drop btn-shadow-drop--black" data-tally-open="3XLROV" data-tally-layout="modal" data-tally-width="700" data-tally-emoji-text="👋" data-tally-emoji-animation="wave">pre-register</button>
+            </div>
+
+            
+        </div>
+        
+        <div class = "text2 text2-shadow-drop--black">
+            <h1 id = "heading">Who are we?</h1>
+            <h3 id = "description">We are a team of students who simply <br>want to make it easy for people to get <br>into the field of STEM, and more specifically hackathons!<br> Alice hacks is only a concept now, but will hopefully<br> be running in the summer of 2023!<br> We hope to be able to expand Alice <br> further beyond a hackathon.</h3>
+
+            <h1 id = "heading">Why we are different</h1>
+            <h3 id = "description">We will focus primarily on helping beginners as <br>well as balance our scale not only on technical skill,<br> but also on imagination.</h3>
+        </div>
+    </div>
+    
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.268/build/spline-viewer.js"></script>
+    <spline-viewer id ="model" hint loading-anim url="https://prod.spline.design/lpH-1b-4OaQ9ULLP/scene.splinecode"></spline-viewer>
     <script src = "script.js"></script>
 </body>
 </html>
